@@ -411,15 +411,6 @@ header a.logo:hover {
     font-size: clamp(36px, 5vw, 70px);
     margin-bottom: 40px;
 }
-
-/* Mirrored background image */
-#contact::before {
-    content: "";
-    position: absolute;
-    inset: 0;
-    
-}
-
 /* Optional dark overlay for readability */
 #contact::after {
     content: "";
