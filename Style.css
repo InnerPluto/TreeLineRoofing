@@ -218,7 +218,7 @@ header a.logo:hover {
     right: -3vw;
     width: 140vw;
     height: 150vh;      /* adjust as needed */
-    background: url('Images/BTL2.png');
+    background-image: url('Images/BTL2.png');
     background-size: contain;
     z-index: -1;         /* behind the content */
 }
