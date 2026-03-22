@@ -20,7 +20,7 @@ header {
     color: white;
     display: flex;
     flex-wrap: nowrap;
-    overflow: hidden;;
+    overflow: hidden;
     justify-content: space-between;
     align-items: center;
     padding: 1.5vh 0vw 1.5vh 1vw;
@@ -112,10 +112,12 @@ header a.logo:hover {
 
 /* Hero Section */
 .hero {
-    background-size: cover;      /* ensures it fills the section */
+    background-size: cover; 
+    background: url('../Images/MyHomePage.png') center/cover no-repeat;/* ensures it fills the section */
     background-position: center; /* centers the image */
     color: #123944;
     text-align: center;               /* makes it full viewport height */
+    height: 100vh;
     display: flex;               /* for centering text */
     flex-direction: column;
     justify-content: center;     /* vertical centering */
