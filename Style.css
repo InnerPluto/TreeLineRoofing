@@ -395,6 +395,7 @@ header a.logo:hover {
 /* CONTACT SECTION BACKGROUND */
 #contact {
     position: relative;
+    display: flex;
     text-align: center;
     overflow: hidden;
     background-image: url('./Images/MyHomePage.png');
@@ -405,7 +406,6 @@ header a.logo:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    display: flex;
     margin: 0;
     padding: 0;
     
