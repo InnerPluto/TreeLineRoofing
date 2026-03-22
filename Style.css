@@ -221,6 +221,7 @@ header a.logo:hover {
     background-image: url('./Images/BTLS.png');
     background-size: contain;
     background-repeat: no-repeat;
+    background-position: bottom center;
     z-index: -1;         /* behind the content */
 }
 
