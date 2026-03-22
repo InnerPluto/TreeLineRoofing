@@ -397,8 +397,13 @@ header a.logo:hover {
     position: relative;
     padding: 60px 20px;
     text-align: center;
-    color: #000;
     overflow: hidden;
+    background-image: url('./Images/MyHomePage.png');
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    z-index: -2;
     
 }
 #contact h2 {
@@ -412,13 +417,6 @@ header a.logo:hover {
     content: "";
     position: absolute;
     inset: 0;
-    background-image: url('./Images/MyHomePage.png');
-    height: 100vh;
-    width: 100%;
-    background-size: cover;
-    background-position: center;
-    transform: scaleX(-1); /* Mirrors the image */
-    z-index: -2;
     
 }
 
