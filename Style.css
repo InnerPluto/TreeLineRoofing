@@ -413,6 +413,8 @@ header a.logo:hover {
     position: absolute;
     inset: 0;
     background-image: url('./Images/MyHomePage.png');
+    height: 100vh;
+    width: 100%;
     background-size: cover;
     background-position: center;
     transform: scaleX(-1); /* Mirrors the image */
