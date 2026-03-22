@@ -405,7 +405,6 @@ header a.logo:hover {
     align-items: center;
     margin: 0;
     padding: 0;
-    transform: none;
 }
 
 #contact::before {
@@ -419,7 +418,7 @@ header a.logo:hover {
     background-size: cover;
     background-position: center;
     transform: scaleX(-1);  /* flip background only */
-    z-index: -1;             /* behind content */
+    z-index: -2;             /* behind content */
 }
 #contact h2 {
     color: #FFA500;
