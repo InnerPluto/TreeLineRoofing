@@ -402,10 +402,10 @@ header a.logo:hover {
     width: 100%;
     background-size: cover;
     background-position: center;
-    z-index: -2;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    display: flex;
     margin: 0;
     padding: 0;
     
