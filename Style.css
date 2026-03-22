@@ -112,7 +112,7 @@ header a.logo:hover {
 
 /* Hero Section */
 .hero {
-    background: url('https://innerpluto.github.io/TreeLineRoofing/Images/MyHomePage.png') center/cover no-repeat; /* ensures it fills the section */
+    background: url('../Images/MyHomePage.png') center/cover no-repeat; /* ensures it fills the section */
     background-size: cover; 
     background-position: center; /* centers the image */
     color: #123944;
