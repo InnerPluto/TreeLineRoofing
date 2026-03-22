@@ -397,18 +397,28 @@ header a.logo:hover {
     position: relative;
     text-align: center;
     overflow: hidden;
-    background-image: url('./Images/MyHomePage.png');
     height: 100vh;
     width: 100%;
-    background-size: cover;
-    background-position: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin: 0;
     padding: 0;
-    transform: scaleX(-1); /* mirrors image */
+}
+
+#contact::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-image: url('./Images/MyHomePage.png');
+    background-size: cover;
+    background-position: center;
+    transform: scaleX(-1);  /* flip background only */
+    z-index: -1;             /* behind content */
 }
 #contact h2 {
     color: #FFA500;
