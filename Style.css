@@ -395,30 +395,18 @@ header a.logo:hover {
 /* CONTACT SECTION BACKGROUND */
 #contact {
     position: relative;
+    padding: 60px 20px;
     text-align: center;
-    overflow: hidden;
-    height: 100vh;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 0;
-    padding: 0;
+    color: #000;
+    overflow: hidden;   
 }
-
 #contact::before {
     content: "";
     position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background-image: url('./Images/MyHomePage.png');
-    background-size: cover;
-    background-position: center;
-    transform: scaleX(-1);  /* flip background only */
-    z-index: -2;             /* behind content */
+    inset: 0;
+    background: url("./Images/MyHomePage.png") center/cover no-repeat;
+    transform: scaleX(-1); /* Mirrors the image */
+    z-index: -2;
 }
 #contact h2 {
     color: #FFA500;
