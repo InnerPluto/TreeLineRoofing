@@ -112,12 +112,10 @@ header a.logo:hover {
 
 /* Hero Section */
 .hero {
-    background: url('../Images/MyHomePage.png') center/cover no-repeat;
     background-size: cover;      /* ensures it fills the section */
     background-position: center; /* centers the image */
     color: #123944;
-    text-align: center;
-    height: 100vh;               /* makes it full viewport height */
+    text-align: center;               /* makes it full viewport height */
     display: flex;               /* for centering text */
     flex-direction: column;
     justify-content: center;     /* vertical centering */
