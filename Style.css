@@ -220,6 +220,7 @@ header a.logo:hover {
     height: 150vh;      /* adjust as needed */
     background-image: url('./Images/BTLS.png');
     background-size: contain;
+    background-repeat: no-repeat;
     z-index: -1;         /* behind the content */
 }
 
