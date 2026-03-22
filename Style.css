@@ -112,8 +112,8 @@ header a.logo:hover {
 
 /* Hero Section */
 .hero {
+    background: url('../Images/MyHomePage.png') center/cover no-repeat; /* ensures it fills the section */
     background-size: cover; 
-    background: url('../Images/MyHomePage.png') center/cover no-repeat;/* ensures it fills the section */
     background-position: center; /* centers the image */
     color: #123944;
     text-align: center;               /* makes it full viewport height */
