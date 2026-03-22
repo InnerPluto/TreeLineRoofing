@@ -395,7 +395,6 @@ header a.logo:hover {
 /* CONTACT SECTION BACKGROUND */
 #contact {
     position: relative;
-    padding: 60px 20px;
     text-align: center;
     overflow: hidden;
     background-image: url('./Images/MyHomePage.png');
