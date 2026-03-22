@@ -412,7 +412,7 @@ header a.logo:hover {
     content: "";
     position: absolute;
     inset: 0;
-    background: url("images/My Home Page.png") center/cover no-repeat;
+    background-image: url('./Images/MyHomePage.png');center/cover no-repeat;
     transform: scaleX(-1); /* Mirrors the image */
     z-index: -2;
     
