@@ -112,7 +112,7 @@ header a.logo:hover {
 
 /* Hero Section */
 .hero {
-    background: url('images/My Home Page.png') center/cover no-repeat;
+    background: url('images/MyHomePage.png') center/cover no-repeat;
     background-size: cover;      /* ensures it fills the section */
     background-position: center; /* centers the image */
     color: #123944;
